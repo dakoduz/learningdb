@@ -1,0 +1,74 @@
+  "quizzes": [
+    {
+      "id": 1,
+      "tutorId": 1,
+      "course": "Cálculo I",
+      "title": "Quiz de Límites y Continuidad",
+      "description": "Evaluación básica sobre límites laterales y continuidad de funciones.",
+      "questions": [
+        {
+          "text": "¿Cuál es el límite de f(x) = x² cuando x tiende a 3?",
+          "options": [
+            "6",
+            "9",
+            "3",
+            "12"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "text": "Una función es continua en un punto si...",
+          "options": [
+            "El límite existe",
+            "La función está definida en ese punto",
+            "El límite existe, la función está definida y ambos son iguales",
+            "La derivada existe"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "text": "¿Qué valor hace que f(x) = (x²-4)/(x-2) sea indeterminada?",
+          "options": [
+            "x = 4",
+            "x = 2",
+            "x = -2",
+            "x = 0"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "status": "published",
+      "createdAt": "2026-05-01T10:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "tutorId": 1,
+      "course": "Programación Web",
+      "title": "Quiz de React Hooks",
+      "description": "Preguntas sobre useState, useEffect y useCallback.",
+      "questions": [
+        {
+          "text": "¿Qué hook se usa para manejar el estado en componentes funcionales?",
+          "options": [
+            "useEffect",
+            "useState",
+            "useContext",
+            "useReducer"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "text": "¿Cuándo se ejecuta useEffect sin dependencias?",
+          "options": [
+            "Solo al montar",
+            "En cada render",
+            "Solo al desmontar",
+            "Nunca"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "status": "draft",
+      "createdAt": "2026-05-10T14:00:00.000Z"
+    }
+  ]
